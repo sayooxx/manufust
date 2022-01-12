@@ -155,6 +155,7 @@
   <!-- External -->
   <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/armnn" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/freetype" />
