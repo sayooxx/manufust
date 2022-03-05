@@ -186,7 +186,7 @@
   <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="12.1" />
 
   <!-- ProtonAosp -->
-
+  <project name="android_packages_apps_GmsCompat" path="packages/apps/GmsCompat" remote="proton" />
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" />
   <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" />
   <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" />
