@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-12.1.0_r1"
            remote="aosp"
@@ -1104,4 +1104,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+   <!-- elytraOS -->
+  <include name="wings/remove.xml" />
+  <include name="wings/elytra.xml" />
+  <include name="wings/extras.xml" />
 </manifest>
