@@ -170,8 +170,11 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="LineageOS" />
 
   <!-- ProtonAosp -->
+
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" />
   <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" />
   <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" />
+  <project name="android_external_colorkt" path="external/colorkt" remote="proton" />
+  <project name="android_external_themelib" path="external/themelib" remote="proton" />
   <project name="android_external_zlib-ng" path="external/zlib-ng" remote="proton" />
 </manifest>
