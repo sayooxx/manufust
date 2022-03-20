@@ -5,7 +5,7 @@
            fetch="https://github.com/"
            revision="lineage-19.0" />
 
-  <remote  name="gitlab"
+  <remote  name="awaken"
            revision="12"
            fetch="https://gitlab.com/Project-Awaken/" />
 
@@ -145,7 +145,7 @@
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="LineageOS" />
 
   <!-- Vendor -->
-  <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="awaken" clone-depth="1" revision="12.1" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="LineageOS" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" remote="LineageOS" revision="lineage-18.1" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="LineageOS" revision="lineage-18.1" />
