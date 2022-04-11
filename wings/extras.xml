@@ -181,6 +181,10 @@
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="LineageOS" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="LineageOS" />
 
+  <!-- GrapheneOS -->
+  <project path="external/Apps" name="GrapheneOS/platform_external_Apps" remote="github" revision="12.1" />
+  <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="12.1" />
+
   <!-- ProtonAosp -->
 
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" />
