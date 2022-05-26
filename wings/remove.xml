@@ -166,6 +166,7 @@
   <remove-project name="platform/external/lz4" />
   <remove-project name="platform/external/vixl" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/zstd" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/noto-fonts" />
   <remove-project name="platform/external/roboto-fonts" />
