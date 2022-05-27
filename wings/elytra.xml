@@ -81,7 +81,6 @@
     <!-- vendor -->
     <project path="vendor/elytra" name="vendor_elytra" remote="elytra" />
     <project path="vendor/support" name="vendor_support" remote="elytra" />
-    <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="elytra" />
     <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="elytra" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="elytra" />
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="elytra" />
@@ -92,7 +91,6 @@
     <!-- External -->
     <project path="external/AndroidSystemBlur" name="AndroidSystemBlur" remote="elytra" />
     <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="elytra" />
-    <project path="external/tinycompress" name="external_tinycompress" remote="elytra" />
     <project path="external/scudo" name="external_scudo" remote="elytra" />
     <project path="external/sqlite" name="external_sqlite" remote="elytra" />
     <project path="external/giflib" name="external_giflib" remote="elytra" />
