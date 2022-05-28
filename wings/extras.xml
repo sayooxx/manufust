@@ -11,7 +11,7 @@
 
   <remote  name="proton"
            fetch="https://github.com/ProtonAOSP"
-           revision="sc" />
+           revision="sc-v2" />
 
   <!-- External -->
   <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen" remote="LineageOS" />
