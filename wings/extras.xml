@@ -154,9 +154,6 @@
   <!-- Vendor -->
   <project path="vendor/gms" name="android_vendor_gms" remote="awaken" clone-depth="1" revision="12.1" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="LineageOS" />
-  <project path="vendor/nxp/nfc" name="LineageOS/android_vendor_nxp_nfc" remote="LineageOS" />
-  <project path="vendor/nxp/secure_element" name="LineageOS/android_vendor_nxp_secure_element" remote="LineageOS" />
-  <project path="vendor/nxp/secure_element_extns" name="LineageOS/android_vendor_nxp_secure_element_extns" remote="LineageOS" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" groups="qcom,qssi" remote="LineageOS" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" groups="qcom,qssi" remote="LineageOS" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" groups="qcom,qssi" remote="LineageOS"/>
@@ -195,4 +192,9 @@
   <project name="android_external_colorkt" path="external/colorkt" remote="proton" />
   <project name="android_external_themelib" path="external/themelib" remote="proton" />
   <project name="android_external_zlib-ng" path="external/zlib-ng" remote="proton" />
+
+  <!-- NXP additions -->
+  <project path="vendor/nxp/nfc" name="LineageOS/android_vendor_nxp_nfc" groups="nxp" remote="LineageOS" />
+  <project path="vendor/nxp/secure_element" name="LineageOS/android_vendor_nxp_secure_element" groups="nxp" remote="LineageOS" />
+  <project path="vendor/nxp/secure_element_extns" name="LineageOS/android_vendor_nxp_secure_element_extns" groups="nxp" remote="LineageOS" />
 </manifest>
