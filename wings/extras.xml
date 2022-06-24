@@ -14,6 +14,9 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-12.1" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <remote  name="proton"
            fetch="https://github.com/ProtonAOSP"
            revision="sc-v2" />
@@ -191,6 +194,9 @@
   <!-- GrapheneOS -->
   <project path="external/Apps" name="GrapheneOS/platform_external_Apps" remote="github" revision="12.1" />
   <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="12.1" />
+
+  <!-- Neutron Clang -->
+  <project path="prebuilts/clang/host/linux-x86/neutron-clang" name="dakkshesh07/neutron-clang" clone-depth="1" revision="Neutron-15" remote="gitlab" />
 
   <!-- ProtonAosp -->
   <project name="android_packages_apps_GmsCompat" path="packages/apps/GmsCompat" remote="proton" />
