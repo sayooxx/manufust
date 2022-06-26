@@ -93,6 +93,7 @@
     <project path="external/giflib" name="external_giflib" remote="elytra" />
     <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="elytra"/>
     <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="elytra" />
+    <project path="external/libfuse" name="external_libfuse" remote="elytra" />
     <project path="external/libpng" name="external_libpng" remote="elytra" />
     <project path="external/libvpx" name="external_libvpx" remote="elytra" />
     <project path="external/libyuv" name="external_libyuv" remote="elytra" />
