@@ -78,7 +78,7 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
-  <!-- Prebuilts -->
+  <!-- Toolchain -->
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
@@ -86,10 +86,6 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
-  <remove-project name="platform/prebuilts/clang-tools"/>
-  <remove-project name="platform/prebuilts/r8"/>
-  <remove-project name="platform/prebuilts/rust"/>
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/av" />
